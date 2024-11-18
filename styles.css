@@ -1,0 +1,47 @@
+#sporty {
+  color: red;
+}
+
+#casual {
+  color: blue;
+}
+
+#formal {
+  color: brown;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+.main-container {
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: ;
+}
+
+#sporty,
+#casual,
+#formal {
+  font-size: 35px;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background: #fff;
+}
+
+div {
+  padding-left: 30px;
+  padding-bottom: 20px;
+  border: 2px solid black;
+  border-radius: 30px;
+  margin-bottom: 15px;
+  background-color: aqua;
+}
+
+span {
+  border: 10px solid black;
+}
