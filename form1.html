@@ -7,28 +7,79 @@
   </head>
   <body>
     <h1>FORM</h1>
-    <form>
+    <form action="" method="get">
       <div>
         <label for="name">Name: </label>
-        <input type="text" id="name" />
+        <input type="text" id="name" placeholder="Enter name" value="John Doe" name="name"/>
       </div>
     </br>
       <div>
         <label for="email">Email: </label>
-        <input type="email" id="email" />
+        <input type="email" id="email" name="email" required/>
       </div>
     </br>
       <div>
         <label for="password">Password: </label>
-        <input type="password" id="password"/>
+        <input type="password" id="password" name="password" required minlength="4" maxlength="12"/>
 
       </div>
 
     </br>
 
+    <div>
+<label for="hobbies">Select Your Hobbies</label>
+<br>
+<br>
+<select name="hobbies" multiple>
+  <option value="Reading" name="Reading">Reading</option>
+  <option value="Swimming">Swimming</option>
+  <option value="singing">singing</option>
+  <option value="writting">Writting</option>
+</select>
+
+    </div>
+    <br/>
+    <div>
+
+<label for="html">
+  <input type="checkbox" id="html" value="html" name="html">HTML
+</label>
+
+<label for="css">
+  <input type="checkbox" id="css" value="css" name="css">CSS
+</label>
+<label for="java">
+  <input type="checkbox" id="java" value="java" name="java">JAVA  
+</label>
+<label for="sql">
+  <input type="checkbox" id="sql" value="sql" name="sql">SQL
+</label>
+
+
+
+    </div>
+
+    <div>
+      <label for="Gender"> Gender</label>
+
+      <br>
+
+      <label for="male">
+        <input type="radio" value="male" name="gender">Male
+      </label>
+
+      <br>
+
+      <label for="female">
+        <input type="radio" value="female" name="gender">Female
+      </label>
+    </div>
+
+    <br>
+
       <div>
 
-        <button type="submit">Submit</button>
+        <input type="submit" value="Submit">
       </div>
     </form>
   </body>
